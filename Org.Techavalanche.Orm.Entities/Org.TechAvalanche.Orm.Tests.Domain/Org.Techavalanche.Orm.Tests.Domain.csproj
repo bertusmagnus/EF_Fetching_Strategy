@@ -107,6 +107,7 @@
   </ItemGroup>
   <ItemGroup>
     <None Include="App.Config" />
+    <None Include="Database\Northwind.zip" />
   </ItemGroup>
   <ItemGroup>
     <BootstrapperPackage Include="Microsoft.Net.Client.3.5">
