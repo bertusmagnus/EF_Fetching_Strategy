@@ -1,0 +1,30 @@
+﻿*********************************************************************************************************************
+public E UniqueWithDetach(string entitySetName, ISpecification<E> where)
+{
+    List<E> unique_list = null;
+    E unique = null;
+
+    using (_ctx)
+    {
+        unique_list = _ctx.CreateQuery<E>("[" + entitySetName + "]").
+            Where<E>(where.EvalPredicate).ToList();
+        unique = (E)unique_list.First();
+        _ctx.Detach(unique);
+    }
+
+    if (unique_list.Count > 1)
+    {
+        throw new NotUniqueEntityException();
+    }
+
+    return unique;
+}
+*********************************************************************************************************************
+public void SaveWithAttach(E entity, object child, string ChildName)
+{
+    _ctx.AttachAsModifiedTo("Customers", entity);
+    //_ctx.AttachAsModifiedTo(ChildName, child);
+    //_ctx.AddObject(ChildName, child);
+    _ctx.SaveChanges();
+}
+*********************************************************************************************************************

@@ -1,0 +1,12 @@
+﻿***********************************************************************************
+        
+//Create another set of methods that take
+//fetching strategies (use the strings like NHib
+//and set up the .Includes or binary switch
+//in the generic E argument which must be a 
+//ILazyEntity. The All<E>(string entityname, IFetchingStrategy)
+//method will place all the relevant inlcudes on
+//to the query inline and set the bool in the E argument
+        
+************************************************************************************
+

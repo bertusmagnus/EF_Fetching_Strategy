@@ -1,0 +1,30 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 10.00
+# Visual Studio 2008
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Org.TechAvalanche.Orm.Repository", "Org.TechAvalanche.Orm.Repository\Org.TechAvalanche.Orm.Repository.csproj", "{73E1BF98-9995-4AF2-9063-19EF0429771D}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Org.Techavalanche.Orm.Tests.Domain", "Org.TechAvalanche.Orm.Tests.Domain\Org.Techavalanche.Orm.Tests.Domain.csproj", "{EF1BF960-FE1D-492B-BB94-1FAD933B2FEB}"
+EndProject
+Global
+	GlobalSection(SubversionScc) = preSolution
+		Svn-Managed = True
+		Manager = AnkhSVN - Subversion Support for Visual Studio
+	EndGlobalSection
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{73E1BF98-9995-4AF2-9063-19EF0429771D}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{73E1BF98-9995-4AF2-9063-19EF0429771D}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{73E1BF98-9995-4AF2-9063-19EF0429771D}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{73E1BF98-9995-4AF2-9063-19EF0429771D}.Release|Any CPU.Build.0 = Release|Any CPU
+		{EF1BF960-FE1D-492B-BB94-1FAD933B2FEB}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{EF1BF960-FE1D-492B-BB94-1FAD933B2FEB}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{EF1BF960-FE1D-492B-BB94-1FAD933B2FEB}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{EF1BF960-FE1D-492B-BB94-1FAD933B2FEB}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal
