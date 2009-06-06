@@ -13,6 +13,9 @@ namespace Org.TechAvalanche.Orm.Repository.Attributes
 {
     #region Class Declaration
 
+    /// <summary>
+    /// Meta Attribute.
+    /// </summary>
     public class NotYetImplemented : Attribute
     {
         #region Private Members
