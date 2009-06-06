@@ -14,7 +14,7 @@ namespace Org.TechAvalanche.Orm.Repository.Attributes
     #region Class Declaration
 
     /// <summary>
-    /// Meta Attribute.
+    /// Meta Attribute for reporting.
     /// </summary>
     public class NotYetImplemented : Attribute
     {
