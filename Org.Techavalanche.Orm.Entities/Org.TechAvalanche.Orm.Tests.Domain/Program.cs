@@ -642,6 +642,7 @@ namespace ConsoleApplication1
                 }
             }
 
+            german_custs[0].Orders.Add(Order.CreateOrder(999999));
             repos.Save();
         }
 
