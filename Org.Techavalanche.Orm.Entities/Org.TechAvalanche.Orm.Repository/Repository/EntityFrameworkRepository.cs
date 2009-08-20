@@ -105,11 +105,7 @@ namespace Org.TechAvalanche.Orm.Repository
         /// <returns>
         /// Returns an IList of TEntity.
         /// </returns>
-        #if(DEBUG)
         public virtual IList<TEntity> AllToIList()
-        #else
-        public virtual IList<TEntity> AllToIList()
-        #endif
         {
             var entity_set_name = FindEntitySetName();
 
